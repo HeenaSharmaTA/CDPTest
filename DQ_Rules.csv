@@ -1,2 +1,0 @@
-dq_check_id	Check	Database_name	table_name	primary_key_cols	sql_fr_run
-0	100	duplicate	corp_us_hub	rxc_patient_hub	[md5_key_hub]	select count(*) from corp_us_hub.rxc_patient_hub group by md5_key_hub having count(*)>1
